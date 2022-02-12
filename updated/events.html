@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Live In Mars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onresize="check_screen()">
+    <header>
+        <nav>
+            <div class="logo">
+                <a><span>L</span>ive <span>I</span>n <span>M</span>ars</a>
+            </div>
+            <div class="links">
+                <div>
+                    <a class="link" href="index.html"><i class="fa fa-home"></i> Home</a>
+                    <a class="link" href="articles.html"><i class="fa fa-newspaper"></i> Articles</a>
+                    <a class="link" href="competitions.html"><i class="fa fa-trophy"></i> Competitions</a>
+                    <a class="link active" href="events.html"><i class="fa fa-calendar-check"></i> Events</a>
+                    <a class="link" href="about.html"><i class="fa fa-info"></i> About</a>
+                </div>
+            </div>
+            <div class="nav-btn">
+                <button type="button" onclick="toggle()"><i class="fa fa-bars nav-toggler"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container home">
+            <section>
+                <h3>Events are coming soon...!</h3>
+            </section>
+            <section>
+                <p>Be aware !!</p>
+            </section>
+                <!-- ADD THIS IF YOU NEED BUTTONS -->
+                <!-- <section class="home-btns">
+                        <a href="#" class="btn">Create Account</a>
+                        <span> or </span>
+                        <a href="#" class="btn">Log in</a>
+                    </section> -->
+        </section>
+        
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="by">
+                <span>© 2022 Copyright : Live In Mars</span>
+            </div>
+            <div>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bottom-nav hide-on-large-only">
+        <a class="" href="competitions.html"><i class="fa fa-trophy"></i></a>
+        <a class="active" href="events.html"><i class="fa fa-calendar-check"></i></a>
+        <a class="" href="index.html"><i class="fa fa-home"></i></a>
+        <a class="" href="articles.html"><i class="fa fa-newspaper"></i></a>
+        <a class="" href="about.html"><i class="fa fa-info"></i></a>
+    </div>
+    
+</body>
+<script src="https://kit.fontawesome.com/282bcf757e.js" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</html>

@@ -189,6 +189,18 @@ section.container.home span{
 .left-section p, .left-section h2{
     color: var(--pri);
 }
+.left-section a{
+    text-decoration: none;
+    padding: 8px 24px;
+    margin: 0 10px;
+    color: #f7f7f7;
+    background-color:#663926;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
 .right-section{
     display: inline-block;
     width: 30%;
