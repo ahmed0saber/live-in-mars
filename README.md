@@ -1,3 +1,3 @@
 ### New Version
 
-https://ahmed0saber.github.io/live-in-mars/updated/
+https://ahmed0saber.github.io/live-in-mars/
