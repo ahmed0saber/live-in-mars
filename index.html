@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- our styles -->
+      <link rel="stylesheet" href="home/style.css">
+      <!-- bootstrap css -->
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <script src="https://kit.fontawesome.com/c8e372366f.js" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+      <title>L.I.M |Home|</title>
+   </head>
+   <body>
+      <div class="phone">
+         <span class="logo">
+            <svg width="161"  height="19" viewBox="0 0 161 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0695343 0.775002H6.96754V11.309H17.9826V0.798002H24.8346V3.88H24.8806V4.71784L28.7155 3.62216L32.1976 8.91928L35.5465 3.5993L41.0934 5.24963L43.441 3.857H53.0021L57.1676 6.32801V15.5603L52.9954 18H43.4477L39.2755 15.5603V10.5339L34.7512 18H29.6444L24.8806 10.4195V18.023H17.9826V18H0.0695343V0.775002ZM22.8806 5.88H19.9826V16.023H22.8806V5.88ZM47.6465 16V13.562H44.1735V11.676H47.6465V9.905H44.1735V8.019H47.6465V5.857H43.9896L41.2755 7.467V14.413L43.9896 16H47.6465ZM48.7735 8.019H52.2466V9.905H48.7735V11.676H52.4535L55.1676 10.089V7.467L52.4535 5.857H48.7735V8.019ZM52.1546 12.803V13.562H48.7735V16H52.4535L55.1676 14.413V12.803H52.1546ZM32.7966 11.722V16H33.6246L39.2136 6.777L36.4306 5.949L32.7966 11.722ZM31.6466 11.722L27.8516 5.949L24.9536 6.777L30.7496 16H31.6466V11.722ZM22.8346 2.798H19.9826V4.937H22.8346V2.798ZM10.5565 13.309V16H17.9165V13.309H10.5565ZM4.96754 13.309V2.775H2.06953V16H9.33754V13.309H4.96754ZM63.7355 0.775002H70.6335V3.88H75.8558V4.20522L76.3638 4.05762V3.88H76.9751L79.2598 3.21622V3.88H82.5396L86.7118 6.31966V17.977H79.8368V10.042H75.8558V17.977H70.6335V18H63.7355V0.775002ZM73.8558 8.042H77.2598V5.88L73.8558 6.869V5.88H70.9348V15.977H73.8558V8.042ZM78.3638 5.88V8.042H81.8368V15.977H84.7118V7.467L81.9978 5.88H78.3638ZM93.9787 0.775002H99.3942L103.904 5.02223L108.436 0.775002H113.826V5.32153L116.173 3.88H125.859L129.916 6.37113V18.023H116.18L113.826 16.5979V18H106.928V11.137L105.339 12.6359V15.346L103.902 13.991L102.466 15.346V12.6359L100.877 11.137V18H93.9787V0.775002ZM98.8767 6.501L103.339 10.71V7.237L98.6007 2.775H95.9787V16H98.8767V6.501ZM104.466 10.71L108.928 6.501V16H111.826V2.775H109.227L104.466 7.237V10.71ZM114.116 11.515V14.436L116.738 16.023H120.51V13.585H117.037V11.699H120.51V9.928H116.738L114.116 11.515ZM121.522 11.699H124.995V13.585H121.614V16.023H127.916V7.49L125.294 5.88H121.522V8.042H124.995V9.928H121.522V11.699ZM117.037 9.077V8.042H120.51V5.88H116.738L114.116 7.49V9.077H117.037ZM130.276 3.949H137.151V4.28411L137.636 4.14508V2.93122L139.346 3.6548L140.601 3.29511V4.18564L143.99 5.61948L146.75 3.949H156.33L160.394 6.40871V15.5403L156.33 18H146.75L142.686 15.5403V11.077H137.636V10.088H137.151V18H130.276V3.949ZM135.151 8.088H138.601V5.949L135.151 6.938V5.949H132.276V16H135.151V8.088ZM139.636 9.077H142.626V7.214L139.636 5.949V9.077ZM144.686 12.803V14.413L147.308 16H151.034V13.585H147.584V12.803H144.686ZM151.034 11.722V9.928H147.584V8.088H151.034V5.949H147.308L144.686 7.536V10.135L147.308 11.722H151.034ZM152.069 8.088H155.519V9.077H158.394V7.536L155.772 5.949H152.069V8.088ZM152.138 9.928V11.722H155.611V13.585H152.069V16H155.772L158.394 14.413V11.538L155.772 9.928H152.138ZM65.7355 2.775V16H68.6335V2.775H65.7355Z" fill="#FF0000"/>
+            </svg>
+         </span>
+         <header id="header2">
+            <nav class="nav2">
+               <button class="toggle-menu2">
+               <span></span>
+               </button>
+            </nav>
+         </header>
+         <div id="menu2" class="">
+            <nav class="main-nav2">
+               <ul>
+                  <li>
+                     <a href="./index.html" class="fa fa-home">
+                     &nbsp; Home
+                     </a>
+                  </li>
+                  <li>
+                     <a href="./about/about.html"  class="fa-solid fa-question">
+                     &nbsp;  about
+                     </a>
+                  </li>
+                  <li>
+                     <a href="./compition/home.html" class="fa-solid fa-user-ninja">
+                     &nbsp; competitions
+                     </a>
+                  </li>
+                  <li>
+                     <a href="./events/event.html"  class="fa-solid fa-star">
+                     &nbsp;events
+                     </a>
+                  </li>
+                  <li>
+                     <a href="./articles/articles.html" class="fa-solid fa-kiwi-bird">
+                     &nbsp;articles
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------------------------------------------- -->
+      <div class="navigation w-100">
+         <span class="logo">
+            <svg width="161" height="19" viewBox="0 0 161 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0695343 0.775002H6.96754V11.309H17.9826V0.798002H24.8346V3.88H24.8806V4.71784L28.7155 3.62216L32.1976 8.91928L35.5465 3.5993L41.0934 5.24963L43.441 3.857H53.0021L57.1676 6.32801V15.5603L52.9954 18H43.4477L39.2755 15.5603V10.5339L34.7512 18H29.6444L24.8806 10.4195V18.023H17.9826V18H0.0695343V0.775002ZM22.8806 5.88H19.9826V16.023H22.8806V5.88ZM47.6465 16V13.562H44.1735V11.676H47.6465V9.905H44.1735V8.019H47.6465V5.857H43.9896L41.2755 7.467V14.413L43.9896 16H47.6465ZM48.7735 8.019H52.2466V9.905H48.7735V11.676H52.4535L55.1676 10.089V7.467L52.4535 5.857H48.7735V8.019ZM52.1546 12.803V13.562H48.7735V16H52.4535L55.1676 14.413V12.803H52.1546ZM32.7966 11.722V16H33.6246L39.2136 6.777L36.4306 5.949L32.7966 11.722ZM31.6466 11.722L27.8516 5.949L24.9536 6.777L30.7496 16H31.6466V11.722ZM22.8346 2.798H19.9826V4.937H22.8346V2.798ZM10.5565 13.309V16H17.9165V13.309H10.5565ZM4.96754 13.309V2.775H2.06953V16H9.33754V13.309H4.96754ZM63.7355 0.775002H70.6335V3.88H75.8558V4.20522L76.3638 4.05762V3.88H76.9751L79.2598 3.21622V3.88H82.5396L86.7118 6.31966V17.977H79.8368V10.042H75.8558V17.977H70.6335V18H63.7355V0.775002ZM73.8558 8.042H77.2598V5.88L73.8558 6.869V5.88H70.9348V15.977H73.8558V8.042ZM78.3638 5.88V8.042H81.8368V15.977H84.7118V7.467L81.9978 5.88H78.3638ZM93.9787 0.775002H99.3942L103.904 5.02223L108.436 0.775002H113.826V5.32153L116.173 3.88H125.859L129.916 6.37113V18.023H116.18L113.826 16.5979V18H106.928V11.137L105.339 12.6359V15.346L103.902 13.991L102.466 15.346V12.6359L100.877 11.137V18H93.9787V0.775002ZM98.8767 6.501L103.339 10.71V7.237L98.6007 2.775H95.9787V16H98.8767V6.501ZM104.466 10.71L108.928 6.501V16H111.826V2.775H109.227L104.466 7.237V10.71ZM114.116 11.515V14.436L116.738 16.023H120.51V13.585H117.037V11.699H120.51V9.928H116.738L114.116 11.515ZM121.522 11.699H124.995V13.585H121.614V16.023H127.916V7.49L125.294 5.88H121.522V8.042H124.995V9.928H121.522V11.699ZM117.037 9.077V8.042H120.51V5.88H116.738L114.116 7.49V9.077H117.037ZM130.276 3.949H137.151V4.28411L137.636 4.14508V2.93122L139.346 3.6548L140.601 3.29511V4.18564L143.99 5.61948L146.75 3.949H156.33L160.394 6.40871V15.5403L156.33 18H146.75L142.686 15.5403V11.077H137.636V10.088H137.151V18H130.276V3.949ZM135.151 8.088H138.601V5.949L135.151 6.938V5.949H132.276V16H135.151V8.088ZM139.636 9.077H142.626V7.214L139.636 5.949V9.077ZM144.686 12.803V14.413L147.308 16H151.034V13.585H147.584V12.803H144.686ZM151.034 11.722V9.928H147.584V8.088H151.034V5.949H147.308L144.686 7.536V10.135L147.308 11.722H151.034ZM152.069 8.088H155.519V9.077H158.394V7.536L155.772 5.949H152.069V8.088ZM152.138 9.928V11.722H155.611V13.585H152.069V16H155.772L158.394 14.413V11.538L155.772 9.928H152.138ZM65.7355 2.775V16H68.6335V2.775H65.7355Z" fill="#FF0000"/>
+            </svg>
+            </svg>
+         </span>
+         <nav class="navbar navbar-expand-lg" id="nav">
+            <div class="d-flex">
+               <ul class=".navbar-a">
+                  <li>
+                     <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="./articles/articles.html">Articles</a>
+                  </li>
+                  <li>
+                     <a href="./compition/home.html">competitions</a>
+                  </li>
+                  <li>
+                     <a href="./events/event.html">Events</a>
+                  </li>
+                  <li>
+                     <a href="./about/about.html">about</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <br><br>
+      <div class="black_moon">
+         <div class='scene'>
+            <div class='scene_titanShadow'></div>
+            <div class='t_wrap'>
+               <div class='scene_titan'>
+                  <div class='eyes'>
+                     <div class='eye eye--left'></div>
+                     <div class='eye eye--right'></div>
+                  </div>
+               </div>
+            </div>
+            <div class='scene_saturn'>
+               <div class='scene_saturn__face'>
+                  <div class='face_clip'>
+                     <div class='eye eye--left'></div>
+                     <div class='eye eye--right'></div>
+                     <div class='mouth'></div>
+                  </div>
+               </div>
+               <div class='scene_saturn__shadow'></div>
+               <div class='scene_saturn__shadowRing'></div>
+               <div class='scene_saturn__sparks'>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+                  <div class='spark'></div>
+               </div>
+               <div class='scene_saturn__ring'>
+                  <div class='small'>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                     <div class='small_part'></div>
+                  </div>
+                  <div class='layer'>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                  </div>
+                  <div class='layer'>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                  </div>
+                  <div class='layer'>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                     <div class='layer_part'></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br><br><br><br><br>
+      <div class="planet2">
+         <div class="wrap">
+            <div class="background"></div>
+            <div class="clouds"></div>
+         </div>
+         <div class="mask"></div>
+      </div>
+      <br><br>
+      <!-- defination     -->
+      <div class="words">
+         <div id="lim">
+            <div id="heat">
+               <h1>Live in Mars</h1>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <center>
+            <article>
+            Space, Mars, planets, stars, and the outside world. The moon. You know what about it.
+            You don’t know much, right. I know, I know . You are not worried here with all the information . that can be useful to you.
+         </div>
+      </div>
+      <br><br><br><br><br>
+      <section class="tag">
+         <div class="lead">
+            <img src="./home/logo.jpeg" id="only_logo" >
+         </div>
+      </section>
+      <br><br>
+      <br><br>
+      <section class="tag">
+         <h2 id="manage">Our message :</h2>
+      </section>
+      <br>
+      <div class="lolll-distributed">
+         <div class="lolll-left">
+            <section class="tag">
+               <p class="blog-post_text">the message The LIM team offers lectures in Psychology. It also provides a lot of information about outer space. It offers many training courses for its members and followers on social media. The LIM team has carried out many events on social networking sites and on the ground as well, and its main message is to provide support and importance to its followers. </p>
+            </section>
+         </div>
+         <div class="lolll-center">
+         </div>
+         <div class="lolll-right">
+            <section class="tag">
+               <img src="./home/11.png" alt="">
+            </section>
+         </div>
+      </div>
+      <section class="tag">
+         <h2 id="manage">Manage Board:</h2>
+      </section>
+      <br><br>
+      <div class="lolll-distributed">
+         <div class="lolll-left">
+            <section class="tag">
+               <div class="lead">
+                  <img src="./home/founder.jpeg">
+                  <h3>Yousef mahmoud</h3>
+                  <h4>Founder</h4>
+               </div>
+            </section>
+         </div>
+         <div class="lolll-center">
+         </div>
+         <div class="lolll-right">
+            <div class="lead">
+               <section class="tag">
+                  <img src="./home/girl.jpg">
+                  <h3>Hafsa</h3>
+                  <h4>Co Founder</h4>
+            </div>
+            </section>
+         </div>
+      </div>
+      </div>
+      <br><br><br>
+      <section class="tag">
+         <center>
+            <div class="wrapper2">
+               <div class="btn">
+                  <a href="./members/members.html"><button type="button" class="explore">Meet The Team</button></a>
+               </div>
+            </div>
+         </center>
+      </section>
+      <br><br><br><br>
+      <section class="tag">
+         <center>
+            <ul id="counter">
+               <li>
+                  <h2>followers</h2>
+                  <span class="count " data-count="3200">
+                  0
+                  </span><br>
+                  <i class="fas fa-users"></i>
+               </li>
+            </ul>
+         </center>
+      </section>
+      <br><br><br>
+      <!-- footer -->
+      <footer class="page-footer">
+         <div class="footer-copyright">
+            <div class="by">
+               <span>© 2022 Copyright : Live In Mars</span>
+            </div>
+            <div>
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-whatsapp"></i></a>
+               <a href="#"><i class="fa fa-envelope"></i></a>
+               <a href=""><i class="fa fa-phone"></i></a>
+            </div>
+         </div>
+      </footer>
+      <script>
+         $(document).on("scroll", function() {
+           var pageTop = $(document).scrollTop();
+           var pageBottom = pageTop + $(window).height();
+           var tags = $(".tag");
+         
+           for (var i = 0; i < tags.length; i++) {
+             var tag = tags[i];
+         
+             if ($(tag).position().top < pageBottom) {
+               $(tag).addClass("visible");
+             } else {
+               $(tag).removeClass("visible");
+             }
+           }
+         });
+         
+         
+         $(function () {
+           $(document).scroll(function () {
+             var $nav = $(".navbar-expand-lg");
+             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+           });
+         });
+         
+         var counted = 0;
+         $(window).scroll(function() {
+         
+           var oTop = $('#counter').offset().top - window.innerHeight;
+           if (counted == 0 && $(window).scrollTop() > oTop) {
+             $('.count').each(function() {
+               var $this = $(this),
+                 countTo = $this.attr('data-count');
+               $({
+                 countNum: $this.text()
+               }).animate({
+                   countNum: countTo
+                 },
+         
+                 {
+         
+                   duration: 6000,
+                   easing: 'swing',
+                   step: function() {
+                     $this.text(Math.floor(this.countNum));
+                   },
+                   complete: function() {
+                     $this.text(this.countNum);
+                     //alert('finished');
+                   }
+         
+                 });
+             });
+             counted = 1;
+           }
+         
+         });
+      </script>
+      <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+      <script>
+         $('.toggle-menu2').click (function(){
+         $(this).toggleClass('active');
+         $('#menu2').toggleClass('open');
+         });
+      </script>
+   </body>
+</html>
